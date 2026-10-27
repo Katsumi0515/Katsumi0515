@@ -1,28 +1,36 @@
-# 小林 活水 (Katsumi Kobayashi)
+# Hi there 👋, I'm Katsumi Kobayashi (小林 活水)
 
-モバイルアプリを個人で作っています。以下のアプリのコードは非公開です。
+System Architect and Application Architect, and an independent iOS app developer based in Tokyo, Japan.
 
-## AED SOS(スーパーハッカソン2013 in Summer 優勝)
-- 解決すること：救助が必要なとき、アプリで頼むと近くにいる人にAEDの場所と助けを求めている場所を知らせる
-- 担当：Team Hustlerのメイン開発者
-- 技術：Parse.com(位置での検索 GeoSearch)
-- 後日の拡張：応じた人と頼んだ人が全員でグループ会話できるようにした(Twilio)
-- 記録：[優勝の発表](http://super-hackathon.net/news/)
+[LinkedIn](https://www.linkedin.com/in/katsumikobayashi0515/) | [X](https://x.com/Katsumi1972)
 
-## Nagi(凪)
-- 解決すること：登録した場所への出入りで、事前に決めたメッセージの日時を更新し、位置そのものは見せずに共有する
-- 技術：Region Monitoring
+## 🚀 About Me
+- 📍 Based in: Tokyo, Japan
+- 💻 Current role: System Architect, Application Architect, and private iOS app developer
+- 🌱 Learning: whatever I need
 
-## T-Rex
-- 解決すること：場所への出入りで、事前に決めたメッセージを共有する。自動での音楽再生もできる
-- 技術：Region Monitoring、CloudKit
+## 🏆 Awards
+- **1st place, Super Hackathon 2013 in Summer** (August 2013), Team Hustler, "AED SOS". Lead developer on a team of five. [Announcement](http://super-hackathon.net/news/)
 
-## カレンダーアプリ
-- 解決すること：月表示がさくさく動くカレンダー
-- 技術：Objective-C(ARC導入前の手動メモリ管理)
+## 🛠️ Tech Stack
+- **Languages:** TypeScript, JavaScript, C, Objective-C, Swift
+- **Frontend:** React, Next.js, Tailwind CSS
+- **Backend:** Node.js, API Gateway, Lambda, AppSync
+- **Infrastructure:** AWS
 
-## ニコニコ動画 非公式プレーヤー
-- 解決すること：ニコニコ動画をiPhoneで再生する試作
+## 📦 Featured Projects
+Source code for these apps is private.
 
-## いま取り組んでいること
-- [coding-agent-harness](https://github.com/Katsumi0515/coding-agent-harness)：コーディングエージェントをStep By Stepで自作する(準備中)
+### Nagi (凪)
+An iOS app that sends a message you set up in advance when you arrive at or leave a place. It uses iOS region monitoring and CloudKit's shared database, with no server of our own, so even the developer can't see your data. Unlike Life360, it never shares your location, only your message and a timestamp.
+
+### AED SOS (Super Hackathon 2013 in Summer, 1st place)
+When someone requests help in the app, people nearby are shown where the nearest AED is and where the person in need is. Built with Parse.com (GeoSearch). Later extended with Twilio so the responders and the requester can join one group conversation.
+
+### Calendar app
+A calendar with a smooth monthly view, built in Objective-C before ARC, with manual memory management.
+
+### Niconico Douga player
+A prototype that plays Niconico videos on iPhone.
+
+
