@@ -27,8 +27,8 @@ An iOS app that sends a message you set up in advance when you arrive at or leav
 ### AED SOS (Super Hackathon 2013 in Summer, 1st place)
 When someone requests help in the app, people nearby are shown where the nearest AED is and where the person in need is. Built with Parse.com (GeoSearch). Later extended with Twilio so the responders and the requester can join one group conversation.
 
-### Calendar app
-A calendar with a smooth monthly view, built in Objective-C before ARC, with manual memory management.
+### BzCalendar (iPhone calendar app, released on the App Store)
+A calendar with a fast monthly view. On the iPhones of that time, drawing a month was slow, so the app caches the data of the previous and next months. Written in Objective-C before ARC, with manual memory management; Swift was added later. The source is published for reference only: [Katsumi0515/bzcalendar](https://github.com/Katsumi0515/bzcalendar)
 
 ### Niconico Douga player
 A prototype that plays Niconico videos on iPhone.
